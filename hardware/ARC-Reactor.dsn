@@ -1,0 +1,288 @@
+(pcb "/media/data/Documents/Projecten/ARC-Reactor/ARC-Reactor.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7+dfsg1-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  123500 -100000  123411 -97951.8  123143 -95919.3  122699 -93917.8
+            122083 -91962.5  121298 -90068.5  120352 -88250  119250 -86521
+            118002 -84894.5  116617 -83383  115106 -81998  113479 -80749.9
+            111750 -79648.4  109932 -78701.8  108037 -77917.2  106082 -77300.7
+            104081 -76857  102048 -76589.4  100000 -76500  97951.8 -76589.4
+            95919.3 -76857  93917.8 -77300.7  91962.5 -77917.2  90068.5 -78701.8
+            88250 -79648.4  86521 -80749.9  84894.5 -81998  83383 -83383
+            81998 -84894.5  80749.9 -86521  79648.4 -88250  78701.8 -90068.5
+            77917.2 -91962.5  77300.7 -93917.8  76857 -95919.3  76589.4 -97951.8
+            76500 -100000  76589.4 -102048  76857 -104081  77300.7 -106082
+            77917.2 -108037  78701.8 -109932  79648.4 -111750  80749.9 -113479
+            81998 -115106  83383 -116617  84894.5 -118002  86521 -119250
+            88250 -120352  90068.5 -121298  91962.5 -122083  93917.8 -122699
+            95919.3 -123143  97951.8 -123411  100000 -123500  102048 -123411
+            104081 -123143  106082 -122699  108037 -122083  109932 -121298
+            111750 -120352  113479 -119250  115106 -118002  116617 -116617
+            118002 -115106  119250 -113479  120352 -111750  121298 -109932
+            122083 -108037  122699 -106082  123143 -104081  123411 -102048)
+    )
+    (plane +5V (polygon F.Cu 0  75000 -75000  125000 -75000  124000 -125000  75000 -125000))
+    (plane GND (polygon B.Cu 0  75000 -75000  125000 -75000  124000 -125000  75000 -125000))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component WS2812B:WS2812B
+      (place LED1 110160 -100000 front 270 (PN WS2812B))
+      (place LED2 107184 -107184 front 225 (PN WS2812B))
+      (place LED3 100000 -110160 front 180 (PN WS2812B))
+      (place LED4 92815.8 -107184 front 135 (PN WS2812B))
+      (place LED5 89840 -100000 front 90 (PN WS2812B))
+      (place LED6 92815.8 -92815.8 front 45 (PN WS2812B))
+      (place LED7 100000 -89840 front 0 (PN WS2812B))
+      (place LED8 107184 -92815.8 front 315 (PN WS2812B))
+      (place LED9 119050 -100000 front 270 (PN WS2812B))
+      (place LED10 117600 -107290 front 247.5 (PN WS2812B))
+      (place LED11 113470 -113470 front 225 (PN WS2812B))
+      (place LED12 107290 -117600 front 202.5 (PN WS2812B))
+      (place LED13 100000 -119050 front 180 (PN WS2812B))
+      (place LED14 92709.9 -117600 front 157.5 (PN WS2812B))
+      (place LED15 86529.6 -113470 front 135 (PN WS2812B))
+      (place LED16 82400.1 -107290 front 112.5 (PN WS2812B))
+      (place LED17 80950 -100000 front 90 (PN WS2812B))
+      (place LED18 82400.1 -92709.9 front 67.5 (PN WS2812B))
+      (place LED19 86529.6 -86529.6 front 45 (PN WS2812B))
+      (place LED20 92709.9 -82400.1 front 22.5 (PN WS2812B))
+      (place LED21 100000 -80950 front 0 (PN WS2812B))
+      (place LED22 107290 -82400.1 front 337.5 (PN WS2812B))
+      (place LED23 113470 -86529.6 front 315 (PN WS2812B))
+      (place LED24 117600 -92709.9 front 292.5 (PN WS2812B))
+      (place LED25 100000 -100000 front 0 (PN WS2812B))
+    )
+  )
+  (library
+    (image WS2812B:WS2812B
+      (outline (path signal 200  -1000 1000  1000 1000))
+      (outline (path signal 200  1000 1000  1000 -1000))
+      (outline (path signal 200  1000 -1000  -500 -1000))
+      (outline (path signal 200  -500 -1000  -1000 -500))
+      (outline (path signal 200  -1000 -500  -1000 1000))
+      (outline (path signal 200  -2500 1000  -2500 -1000))
+      (outline (path signal 200  -500 -2500  500 -2500))
+      (outline (path signal 200  2500 1000  2500 -1000))
+      (outline (path signal 200  -500 2500  500 2500))
+      (outline (path signal 200  2100 -2500  2500 -2500))
+      (outline (path signal 200  -1200 -2500  1200 -2500))
+      (outline (path signal 200  -2500 -2500  -2100 -2500))
+      (outline (path signal 200  2100 2500  2500 2500))
+      (outline (path signal 200  -1200 2500  1200 2500))
+      (outline (path signal 200  -2500 2500  -2100 2500))
+      (outline (path signal 200  -2100 2700  -1200 2700))
+      (outline (path signal 200  -1200 2700  -1200 1800))
+      (outline (path signal 200  -1200 1800  -2100 1800))
+      (outline (path signal 200  -2100 1800  -2100 2700))
+      (outline (path signal 200  2100 2700  1200 2700))
+      (outline (path signal 200  1200 2700  1200 1800))
+      (outline (path signal 200  1200 1800  2100 1800))
+      (outline (path signal 200  2100 1800  2100 2700))
+      (outline (path signal 200  -2100 -2700  -2100 -1800))
+      (outline (path signal 200  -2100 -1800  -1200 -1800))
+      (outline (path signal 200  -1200 -1800  -1200 -2700))
+      (outline (path signal 200  -1200 -2700  -2100 -2700))
+      (outline (path signal 200  1200 -2700  1200 -1800))
+      (outline (path signal 200  1200 -1800  2100 -1800))
+      (outline (path signal 200  2100 -1800  2100 -2700))
+      (outline (path signal 200  2100 -2700  1200 -2700))
+      (outline (path signal 200  2500 2500  2500 -2500))
+      (outline (path signal 200  -2499.36 -2499.36  -2499.36 2499.36))
+      (pin Rect[T]Pad_1400x1800_um 1 1650 2400)
+      (pin Rect[T]Pad_1400x1800_um 2 -1650 2400)
+      (pin Rect[T]Pad_1400x1800_um 3 -1650 -2400)
+      (pin Rect[T]Pad_1400x1800_um 4 1650 -2400)
+    )
+    (padstack Rect[T]Pad_1400x1800_um
+      (shape (rect F.Cu -700 -900 700 900))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(LED1-Pad2)"
+      (pins LED1-2 LED25-4)
+    )
+    (net "Net-(LED1-Pad4)"
+      (pins LED1-4 LED2-2)
+    )
+    (net "Net-(LED2-Pad4)"
+      (pins LED2-4 LED3-2)
+    )
+    (net "Net-(LED3-Pad4)"
+      (pins LED3-4 LED4-2)
+    )
+    (net "Net-(LED4-Pad4)"
+      (pins LED4-4 LED5-2)
+    )
+    (net "Net-(LED5-Pad4)"
+      (pins LED5-4 LED6-2)
+    )
+    (net "Net-(LED6-Pad4)"
+      (pins LED6-4 LED7-2)
+    )
+    (net "Net-(LED7-Pad4)"
+      (pins LED7-4 LED8-2)
+    )
+    (net "Net-(LED8-Pad4)"
+      (pins LED8-4 LED9-2)
+    )
+    (net "Net-(LED10-Pad2)"
+      (pins LED9-4 LED10-2)
+    )
+    (net "Net-(LED10-Pad4)"
+      (pins LED10-4 LED11-2)
+    )
+    (net "Net-(LED11-Pad4)"
+      (pins LED11-4 LED12-2)
+    )
+    (net "Net-(LED12-Pad4)"
+      (pins LED12-4 LED13-2)
+    )
+    (net "Net-(LED13-Pad4)"
+      (pins LED13-4 LED14-2)
+    )
+    (net "Net-(LED14-Pad4)"
+      (pins LED14-4 LED15-2)
+    )
+    (net "Net-(LED15-Pad4)"
+      (pins LED15-4 LED16-2)
+    )
+    (net "Net-(LED16-Pad4)"
+      (pins LED16-4 LED17-2)
+    )
+    (net "Net-(LED17-Pad4)"
+      (pins LED17-4 LED18-2)
+    )
+    (net "Net-(LED18-Pad4)"
+      (pins LED18-4 LED19-2)
+    )
+    (net "Net-(LED19-Pad4)"
+      (pins LED19-4 LED20-2)
+    )
+    (net "Net-(LED20-Pad4)"
+      (pins LED20-4 LED21-2)
+    )
+    (net "Net-(LED21-Pad4)"
+      (pins LED21-4 LED22-2)
+    )
+    (net "Net-(LED22-Pad4)"
+      (pins LED22-4 LED23-2)
+    )
+    (net "Net-(LED23-Pad4)"
+      (pins LED23-4 LED24-2)
+    )
+    (net "Net-(LED24-Pad4)"
+      (pins LED24-4)
+    )
+    (net "Net-(LED25-Pad2)"
+      (pins LED25-2)
+    )
+    (net +5V
+      (pins LED1-1 LED2-1 LED3-1 LED4-1 LED5-1 LED6-1 LED7-1 LED8-1 LED9-1 LED10-1
+        LED11-1 LED12-1 LED13-1 LED14-1 LED15-1 LED16-1 LED17-1 LED18-1 LED19-1 LED20-1
+        LED21-1 LED22-1 LED23-1 LED24-1 LED25-1)
+    )
+    (net GND
+      (pins LED1-3 LED2-3 LED3-3 LED4-3 LED5-3 LED6-3 LED7-3 LED8-3 LED9-3 LED10-3
+        LED11-3 LED12-3 LED13-3 LED14-3 LED15-3 LED16-3 LED17-3 LED18-3 LED19-3 LED20-3
+        LED21-3 LED22-3 LED23-3 LED24-3 LED25-3)
+    )
+    (class kicad_default "" +5V GND "Net-(LED1-Pad1)" "Net-(LED1-Pad2)" "Net-(LED1-Pad3)"
+      "Net-(LED1-Pad4)" "Net-(LED10-Pad1)" "Net-(LED10-Pad2)" "Net-(LED10-Pad3)"
+      "Net-(LED10-Pad4)" "Net-(LED11-Pad1)" "Net-(LED11-Pad2)" "Net-(LED11-Pad3)"
+      "Net-(LED11-Pad4)" "Net-(LED12-Pad1)" "Net-(LED12-Pad2)" "Net-(LED12-Pad3)"
+      "Net-(LED12-Pad4)" "Net-(LED13-Pad1)" "Net-(LED13-Pad2)" "Net-(LED13-Pad3)"
+      "Net-(LED13-Pad4)" "Net-(LED14-Pad1)" "Net-(LED14-Pad2)" "Net-(LED14-Pad3)"
+      "Net-(LED14-Pad4)" "Net-(LED15-Pad1)" "Net-(LED15-Pad2)" "Net-(LED15-Pad3)"
+      "Net-(LED15-Pad4)" "Net-(LED16-Pad1)" "Net-(LED16-Pad2)" "Net-(LED16-Pad3)"
+      "Net-(LED16-Pad4)" "Net-(LED17-Pad1)" "Net-(LED17-Pad2)" "Net-(LED17-Pad3)"
+      "Net-(LED17-Pad4)" "Net-(LED18-Pad1)" "Net-(LED18-Pad2)" "Net-(LED18-Pad3)"
+      "Net-(LED18-Pad4)" "Net-(LED19-Pad1)" "Net-(LED19-Pad2)" "Net-(LED19-Pad3)"
+      "Net-(LED19-Pad4)" "Net-(LED2-Pad1)" "Net-(LED2-Pad2)" "Net-(LED2-Pad3)"
+      "Net-(LED2-Pad4)" "Net-(LED20-Pad1)" "Net-(LED20-Pad2)" "Net-(LED20-Pad3)"
+      "Net-(LED20-Pad4)" "Net-(LED21-Pad1)" "Net-(LED21-Pad2)" "Net-(LED21-Pad3)"
+      "Net-(LED21-Pad4)" "Net-(LED22-Pad1)" "Net-(LED22-Pad2)" "Net-(LED22-Pad3)"
+      "Net-(LED22-Pad4)" "Net-(LED23-Pad1)" "Net-(LED23-Pad2)" "Net-(LED23-Pad3)"
+      "Net-(LED23-Pad4)" "Net-(LED24-Pad1)" "Net-(LED24-Pad2)" "Net-(LED24-Pad3)"
+      "Net-(LED24-Pad4)" "Net-(LED25-Pad1)" "Net-(LED25-Pad2)" "Net-(LED25-Pad3)"
+      "Net-(LED25-Pad4)" "Net-(LED3-Pad1)" "Net-(LED3-Pad2)" "Net-(LED3-Pad3)"
+      "Net-(LED3-Pad4)" "Net-(LED4-Pad1)" "Net-(LED4-Pad2)" "Net-(LED4-Pad3)"
+      "Net-(LED4-Pad4)" "Net-(LED5-Pad1)" "Net-(LED5-Pad2)" "Net-(LED5-Pad3)"
+      "Net-(LED5-Pad4)" "Net-(LED6-Pad1)" "Net-(LED6-Pad2)" "Net-(LED6-Pad3)"
+      "Net-(LED6-Pad4)" "Net-(LED7-Pad1)" "Net-(LED7-Pad2)" "Net-(LED7-Pad3)"
+      "Net-(LED7-Pad4)" "Net-(LED8-Pad1)" "Net-(LED8-Pad2)" "Net-(LED8-Pad3)"
+      "Net-(LED8-Pad4)" "Net-(LED9-Pad1)" "Net-(LED9-Pad2)" "Net-(LED9-Pad3)"
+      "Net-(LED9-Pad4)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  112560 -98350  112560 -99940)(net "Net-(LED1-Pad2)")(type protect))
+    (wire (path F.Cu 250  104050 -100000  101650 -102400)(net "Net-(LED1-Pad2)")(type protect))
+    (wire (path F.Cu 250  112500 -100000  104050 -100000)(net "Net-(LED1-Pad2)")(type protect))
+    (wire (path F.Cu 250  112560 -99940  112500 -100000)(net "Net-(LED1-Pad2)")(type protect))
+    (wire (path F.Cu 250  110048 -107715  110048 -103938  107760 -101650)(net "Net-(LED1-Pad4)")(type protect))
+    (wire (path F.Cu 250  104320 -106654  104320 -109890  101650 -112560)(net "Net-(LED2-Pad4)")(type protect))
+    (wire (path F.Cu 250  92285.5 -110048  96062 -110048  98350 -107760)(net "Net-(LED3-Pad4)")(type protect))
+    (wire (path F.Cu 250  93346.1 -104320  90110.4 -104320  87440 -101650)(net "Net-(LED4-Pad4)")(type protect))
+    (wire (path F.Cu 250  89952 -92285.5  89952 -96062  92240 -98350)(net "Net-(LED5-Pad4)")(type protect))
+    (wire (path F.Cu 250  95679.6 -93346.1  95679.6 -90110.4  98350 -87440)(net "Net-(LED6-Pad4)")(type protect))
+    (wire (path F.Cu 250  107715 -89952  103938 -89952  101650 -92240)(net "Net-(LED7-Pad4)")(type protect))
+    (wire (path F.Cu 250  106654 -95679.6  113680 -95679.6)(net "Net-(LED8-Pad4)")(type protect))
+    (wire (path F.Cu 250  120100 -97000  121450 -98350)(net "Net-(LED8-Pad4)")(type protect))
+    (wire (path F.Cu 250  115000 -97000  120100 -97000)(net "Net-(LED8-Pad4)")(type protect))
+    (wire (path F.Cu 250  113680 -95679.6  115000 -97000)(net "Net-(LED8-Pad4)")(type protect))
+    (wire (path F.Cu 250  120449 -106684  120449 -105449  116650 -101650)(net "Net-(LED10-Pad2)")(type protect))
+    (wire (path F.Cu 250  116334 -114001  116334 -109479  114751 -107896)(net "Net-(LED10-Pad4)")(type protect))
+    (wire (path F.Cu 250  109733 -119186  109733 -113814  110607 -112940)(net "Net-(LED11-Pad4)")(type protect))
+    (wire (path F.Cu 250  101650 -121450  101650 -119211  104847 -116014)(net "Net-(LED12-Pad4)")(type protect))
+    (wire (path F.Cu 250  93315.8 -120449  94551.4 -120449  98350 -116650)(net "Net-(LED13-Pad4)")(type protect))
+    (wire (path F.Cu 250  85999.3 -116334  90520.9 -116334  92103.9 -114751)(net "Net-(LED14-Pad4)")(type protect))
+    (wire (path F.Cu 250  80814.2 -109733  86186.3 -109733  87059.9 -110607)(net "Net-(LED15-Pad4)")(type protect))
+    (wire (path F.Cu 250  78550 -101650  80788.7 -101650  83986 -104847)(net "Net-(LED16-Pad4)")(type protect))
+    (wire (path F.Cu 250  79551.4 -93315.8  79551.4 -94551.4  83350 -98350)(net "Net-(LED17-Pad4)")(type protect))
+    (wire (path F.Cu 250  83665.8 -85999.3  83665.8 -90520.9  85248.8 -92103.9)(net "Net-(LED18-Pad4)")(type protect))
+    (wire (path F.Cu 250  90267 -80814.2  90267 -86186.3  89393.4 -87059.9)(net "Net-(LED19-Pad4)")(type protect))
+    (wire (path F.Cu 250  98350 -78550  98350 -80788.7  95152.7 -83986)(net "Net-(LED20-Pad4)")(type protect))
+    (wire (path F.Cu 250  106684 -79551.4  105449 -79551.4  101650 -83350)(net "Net-(LED21-Pad4)")(type protect))
+    (wire (path F.Cu 250  114001 -83665.8  109479 -83665.8  107896 -85248.8)(net "Net-(LED22-Pad4)")(type protect))
+    (wire (path F.Cu 250  119186 -90267  113814 -90267  112940 -89393.4)(net "Net-(LED23-Pad4)")(type protect))
+  )
+)

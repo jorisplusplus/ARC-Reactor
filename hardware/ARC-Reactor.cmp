@@ -1,0 +1,187 @@
+Cmp-Mod V01 Created by PcbNew   date = Thu 01 Mar 2018 01:02:42 PM CET
+
+BeginCmp
+TimeStamp = 5A97F041
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97F019
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EFF1
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EFC9
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EFA1
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EF79
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EF51
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEF5
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEEE
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEE7
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEE0
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EED9
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EED2
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EECB
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEC4
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEBD
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEB6
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEAF
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEA8
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EEA1
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97EE9A
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97E9B0
+Path = /5A97E937
+Reference = LED1;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A97E9B8
+Path = /5A97E9D4
+Reference = LED2;
+ValeurCmp = WS2812B;
+IdModule  = WS2812B:WS2812B;
+EndCmp
+
+EndListe

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name WS2812B)(type KiCad)(uri "$(KIPRJMOD)/WS2812B.pretty")(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri /home/joris/Documents/Projecten/ARC-Reactor/ESP8266.pretty)(options "")(descr ""))
+)
